@@ -1,0 +1,33 @@
+body {
+  position: relative;
+  background: url('./img/img-bg.jpg') no-repeat center center/cover;
+  color: #fff;
+  
+}
+body::before{
+  content: '';
+  position: absolute;
+  background:rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.countdown h2 span {
+  margin: 0px 48px;
+  padding: 4px;
+  font-size: 60px;
+}
+
+.countdown p span {
+  color: #fefefe;
+  margin: 0px 14px;
+  padding: 5px;
+  font-size: 60px;
+}
+footer div span a i{
+  transition: all ease-in 0.4s ;
+}
+footer div span a i:hover {
+  color: red;
+}
